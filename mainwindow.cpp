@@ -25,7 +25,6 @@ MainWindow::MainWindow(QWidget *parent) :
     setModels();
 
     SaveName = "nowa_sesja.ini";
-
 }
 
 MainWindow::~MainWindow()
@@ -383,7 +382,7 @@ void MainWindow::on_actionInformacje_o_produkcie_triggered()
     QMessageBox msgbox;
     msgbox.setIcon(QMessageBox::NoIcon);
     msgbox.setWindowTitle("Informacje o Omni-MG");
-    msgbox.setText("<center><font size=14><b>Omni-MG v1.2</b></font><br> by Vex<br><br>"
+    msgbox.setText("<center><font size=14><b>Omni-MG v2.0</b></font><br> by Vex<br><br>"
                    " Omni-MG został stworzony na użytek userów forum Cytadela"
                    " PBF <br><br> Autor: Vex <br><br>Wszelkie prawa zastrzeżone.<br><br> Stylesheets by LoneWolf. Wszystkie elementy zostały stworzone w oparciu o informacje znajdujące się w leksykonie Mass Effect.</center>");
 
@@ -579,46 +578,46 @@ void MainWindow::AddWeapon()
     else if(WeaponName == "M-77 Paladyn") {WeaponAcc = "25"; WeaponRec = "10"; WeaponPA = "4PA"; WeaponDMG = "350";}
     else if(WeaponName == "M-358 Szpon") {WeaponAcc = "20"; WeaponRec = "15"; WeaponPA = "5PA"; WeaponDMG = "433";}
     else if(WeaponName == "Oprawca") {WeaponAcc = "25"; WeaponRec = "20"; WeaponPA = "6PA"; WeaponDMG = "872";}
-    else if(WeaponName == "N7 Orzeł") {WeaponAcc = "15"; WeaponRec = "5"; WeaponPA = "4PA"; WeaponDMG = "504";}
+    else if(WeaponName == "N7 Orzeł") {WeaponAcc = "15"; WeaponRec = "5"; WeaponPA = "4PA"; WeaponDMG = "84/6";}
 
-    else if(WeaponName == "M-4 Shuriken") {WeaponAcc = "10"; WeaponRec = "10"; WeaponPA = "4PA"; WeaponDMG = "232";}
-    else if(WeaponName == "M-9 Grom") {WeaponAcc = "15"; WeaponRec = "10"; WeaponPA = "5PA"; WeaponDMG = "410";}
-    else if(WeaponName == "M-12 Szarańcza") {WeaponAcc = "25"; WeaponRec = "5"; WeaponPA = "5PA"; WeaponDMG = "390";}
-    else if(WeaponName == "M-25 Szerszeń'") {WeaponAcc = "25"; WeaponRec = "15"; WeaponPA = "4PA"; WeaponDMG = "504";}
-    else if(WeaponName == "Pistolet Maszynowy Gethów") {WeaponAcc = "30"; WeaponRec = "5"; WeaponPA = "5PA"; WeaponDMG = "520";}
-    else if(WeaponName == "Karzyciel Krwawej Hordy") {WeaponAcc = "15"; WeaponRec = "15"; WeaponPA = "4PA"; WeaponDMG = "640";}
-    else if(WeaponName == "Pistolet Maszynowy Zbieraczy") {WeaponAcc = "25"; WeaponRec = "5"; WeaponPA = "4PA"; WeaponDMG = "510";}
-    else if(WeaponName == "N7 Huragan") {WeaponAcc = "15"; WeaponRec = "10"; WeaponPA = "4PA"; WeaponDMG = "600";}
+    else if(WeaponName == "M-4 Shuriken") {WeaponAcc = "10"; WeaponRec = "10"; WeaponPA = "4PA"; WeaponDMG = "29/8";}
+    else if(WeaponName == "M-9 Grom") {WeaponAcc = "15"; WeaponRec = "10"; WeaponPA = "5PA"; WeaponDMG = "41/10";}
+    else if(WeaponName == "M-12 Szarańcza") {WeaponAcc = "25"; WeaponRec = "5"; WeaponPA = "5PA"; WeaponDMG = "39/10";}
+    else if(WeaponName == "M-25 Szerszeń'") {WeaponAcc = "25"; WeaponRec = "15"; WeaponPA = "4PA"; WeaponDMG = "56/9";}
+    else if(WeaponName == "Pistolet Maszynowy Gethów") {WeaponAcc = "30"; WeaponRec = "5"; WeaponPA = "5PA"; WeaponDMG = "26/20";}
+    else if(WeaponName == "Karzyciel Krwawej Hordy") {WeaponAcc = "15"; WeaponRec = "15"; WeaponPA = "4PA"; WeaponDMG = "64/10";}
+    else if(WeaponName == "Pistolet Maszynowy Zbieraczy") {WeaponAcc = "25"; WeaponRec = "5"; WeaponPA = "4PA"; WeaponDMG = "51/10";}
+    else if(WeaponName == "N7 Huragan") {WeaponAcc = "15"; WeaponRec = "10"; WeaponPA = "4PA"; WeaponDMG = "60/10";}
 
-    else if(WeaponName == "M-8 Mściciel") {WeaponAcc = "10"; WeaponRec = "10"; WeaponPA = "7PA"; WeaponDMG = "390";}
-    else if(WeaponName == "M-15 Windykator") {WeaponAcc = "20"; WeaponRec = "10"; WeaponPA = "6PA"; WeaponDMG = "510";}
+    else if(WeaponName == "M-8 Mściciel") {WeaponAcc = "10"; WeaponRec = "10"; WeaponPA = "7PA"; WeaponDMG = "39/10";}
+    else if(WeaponName == "M-15 Windykator") {WeaponAcc = "20"; WeaponRec = "10"; WeaponPA = "6PA"; WeaponDMG = "60/9";}
     else if(WeaponName == "M-37 Sokół") {WeaponAcc = "7"; WeaponRec = "20"; WeaponPA = "8PA"; WeaponDMG = "407";}
-    else if(WeaponName == "M-55 Argus") {WeaponAcc = "10"; WeaponRec = "15"; WeaponPA = "7PA"; WeaponDMG = "600";}
-    else if(WeaponName == "M-76 Zjawa") {WeaponAcc = "10"; WeaponRec = "10"; WeaponPA = "6PA"; WeaponDMG = "680";}
-    else if(WeaponName == "M-96 Motyka") {WeaponAcc = "30"; WeaponRec = "10"; WeaponPA = "7PA"; WeaponDMG = "632";}
+    else if(WeaponName == "M-55 Argus") {WeaponAcc = "10"; WeaponRec = "15"; WeaponPA = "7PA"; WeaponDMG = "100/6";}
+    else if(WeaponName == "M-76 Zjawa") {WeaponAcc = "10"; WeaponRec = "10"; WeaponPA = "6PA"; WeaponDMG = "68/10";}
+    else if(WeaponName == "M-96 Motyka") {WeaponAcc = "30"; WeaponRec = "10"; WeaponPA = "7PA"; WeaponDMG = "79/8";}
     else if(WeaponName == "M-99 Szabla") {WeaponAcc = "25"; WeaponRec = "20"; WeaponPA = "8PA"; WeaponDMG = "700";}
-    else if(WeaponName == "Phaeston") {WeaponAcc = "20"; WeaponRec = "5"; WeaponPA = "6PA"; WeaponDMG = "460";}
+    else if(WeaponName == "Phaeston") {WeaponAcc = "20"; WeaponRec = "5"; WeaponPA = "6PA"; WeaponDMG = "46/10";}
     else if(WeaponName == "Wyrzutnia Chakram") {WeaponAcc = "37"; WeaponRec = "10"; WeaponPA = "6PA/8PA"; WeaponDMG = "554/831";}
-    else if(WeaponName == "Karabin Pulsacyjny Gethów") {WeaponAcc = "25"; WeaponRec = "5"; WeaponPA = "6PA"; WeaponDMG = "500";}
-    else if(WeaponName == "Karabin Szturmowy Zbieraczy") {WeaponAcc = "10"; WeaponRec = "5"; WeaponPA = "7PA"; WeaponDMG = "540";}
-    else if(WeaponName == "Miotacz Cząsteczek") {WeaponAcc = "20"; WeaponRec = "0"; WeaponPA = "6PA"; WeaponDMG = "600";}
-    else if(WeaponName == "Napastnik") {WeaponAcc = "15"; WeaponRec = "25"; WeaponPA = "8PA"; WeaponDMG = "656";}
-    else if(WeaponName == "Błotniak") {WeaponAcc = "30"; WeaponRec = "10"; WeaponPA = "6PA"; WeaponDMG = "1000";}
-    else if(WeaponName == "Karabin Przeciw-Syn. Adas") {WeaponAcc = "10"; WeaponRec = "5"; WeaponPA = "7PA"; WeaponDMG = "774";}
-    else if(WeaponName == "N7 Walkiria") {WeaponAcc = "20"; WeaponRec = "10"; WeaponPA = "7PA"; WeaponDMG = "600";}
-    else if(WeaponName == "N7 Tajfun") {WeaponAcc = "20"; WeaponRec = "15"; WeaponPA = "6PA"; WeaponDMG = "720";}
+    else if(WeaponName == "Karabin Pulsacyjny Gethów") {WeaponAcc = "25"; WeaponRec = "5"; WeaponPA = "6PA"; WeaponDMG = "25/20";}
+    else if(WeaponName == "Karabin Szturmowy Zbieraczy") {WeaponAcc = "10"; WeaponRec = "5"; WeaponPA = "7PA"; WeaponDMG = "54/10";}
+    else if(WeaponName == "Miotacz Cząsteczek") {WeaponAcc = "20"; WeaponRec = "0"; WeaponPA = "6PA"; WeaponDMG = "60/10";}
+    else if(WeaponName == "Napastnik") {WeaponAcc = "15"; WeaponRec = "25"; WeaponPA = "8PA"; WeaponDMG = "164/4";}
+    else if(WeaponName == "Błotniak") {WeaponAcc = "30"; WeaponRec = "10"; WeaponPA = "6PA"; WeaponDMG = "100/10";}
+    else if(WeaponName == "Karabin Przeciw-Syn. Adas") {WeaponAcc = "10"; WeaponRec = "5"; WeaponPA = "7PA"; WeaponDMG = "129/6";}
+    else if(WeaponName == "N7 Walkiria") {WeaponAcc = "20"; WeaponRec = "10"; WeaponPA = "7PA"; WeaponDMG = "150/4";}
+    else if(WeaponName == "N7 Tajfun") {WeaponAcc = "20"; WeaponRec = "15"; WeaponPA = "6PA"; WeaponDMG = "72/10";}
 
     else if(WeaponName == "M-92 Modliszka") {WeaponAcc = "35"; WeaponRec = "10"; WeaponPA = "11PA"; WeaponDMG = "615";}
     else if(WeaponName == "M-97 Żmija") {WeaponAcc = "30"; WeaponRec = "10"; WeaponPA = "9PA"; WeaponDMG = "310";}
-    else if(WeaponName == "M-29 Siekacz") {WeaponAcc = "25"; WeaponRec = "15"; WeaponPA = "11PA"; WeaponDMG = "504";}
-    else if(WeaponName == "M-13 Raptor") {WeaponAcc = "30"; WeaponRec = "10"; WeaponPA = "9PA"; WeaponDMG = "525";}
-    else if(WeaponName == "M-90 Indra") {WeaponAcc = "15"; WeaponRec = "10"; WeaponPA = "10PA"; WeaponDMG = "480";}
+    else if(WeaponName == "M-29 Siekacz") {WeaponAcc = "25"; WeaponRec = "15"; WeaponPA = "11PA"; WeaponDMG = "168/3";}
+    else if(WeaponName == "M-13 Raptor") {WeaponAcc = "30"; WeaponRec = "10"; WeaponPA = "9PA"; WeaponDMG = "105/5";}
+    else if(WeaponName == "M-90 Indra") {WeaponAcc = "15"; WeaponRec = "10"; WeaponPA = "10PA"; WeaponDMG = "48/10";}
     else if(WeaponName == "M-98 Wdowa") {WeaponAcc = "35"; WeaponRec = "15"; WeaponPA = "11PA"; WeaponDMG = "867";}
     else if(WeaponName == "Czarna Wdowa") {WeaponAcc = "35"; WeaponRec = "20"; WeaponPA = "10PA"; WeaponDMG = "693";}
     else if(WeaponName == "Oszczep") {WeaponAcc = "35"; WeaponRec = "15"; WeaponPA = "11PA"; WeaponDMG = "795";}
     else if(WeaponName == "Wyrzutnia harpunów Kishock") {WeaponAcc = "25"; WeaponRec = "10"; WeaponPA = "9PA"; WeaponDMG = "656";}
     else if(WeaponName == "Krysae") {WeaponAcc = "30"; WeaponRec = "10"; WeaponPA = "10PA"; WeaponDMG = "601";}
-    else if(WeaponName == "Karabin Snajperski Zbieraczy") {WeaponAcc = "10"; WeaponRec = "0"; WeaponPA = "10PA"; WeaponDMG = "200";}
+    else if(WeaponName == "Karabin Snajperski Zbieraczy") {WeaponAcc = "10"; WeaponRec = "0"; WeaponPA = "10PA"; WeaponDMG = "20/10";}
     else if(WeaponName == "N7 Waleczny") {WeaponAcc = "35"; WeaponRec = "10"; WeaponPA = "10PA"; WeaponDMG = "697";}
 
     else if(WeaponName == "M-23 Katana") {WeaponAcc = "10"; WeaponRec = "20"; WeaponPA = "7PA"; WeaponDMG = "316";}
@@ -2048,4 +2047,9 @@ void MainWindow::InitializePlayers()
         plr.skill_effects_id[5] = 0;
         Player.append(plr);
     }
+}
+
+void MainWindow::on_actionOmni_Kalkulator_triggered()
+{
+    calc.setVisible(true);
 }

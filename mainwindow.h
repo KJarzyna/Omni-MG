@@ -5,6 +5,7 @@
 #include <QtCore>
 #include <QtGui>
 #include "player.h"
+#include "calculator.h"
 
 namespace Ui {
 class MainWindow;
@@ -18,6 +19,7 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
     QVector<player> Player;
+    calculator calc;
 
     QVector<QWidget*> tab_copy;
 
@@ -72,6 +74,8 @@ private slots:
     void on_plainTextEdit_equipment_textChanged();
 
 
+    void on_actionOmni_Kalkulator_triggered();
+
 private:
     Ui::MainWindow *ui;
     QStandardItemModel* model[8];
@@ -119,6 +123,8 @@ private:
 
     QString SaveName;
     QString PrestigeSkillsCopy[20];
+
+
 
 };
 

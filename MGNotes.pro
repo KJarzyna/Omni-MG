@@ -15,13 +15,16 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     player.cpp \
-    skill_firearm_armor.cpp
+    skill_firearm_armor.cpp \
+    calculator.cpp
 
 HEADERS  += mainwindow.h \
     player.h \
-    skill_firearm_armor.h
+    skill_firearm_armor.h \
+    calculator.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    calculator.ui
 
 RESOURCES += \
     resources.qrc

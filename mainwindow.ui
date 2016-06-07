@@ -3082,7 +3082,14 @@ font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
     <addaction name="actionPodziekowania"/>
     <addaction name="actionInformacje_o_produkcie"/>
    </widget>
+   <widget class="QMenu" name="menuModu_y">
+    <property name="title">
+     <string>Moduły</string>
+    </property>
+    <addaction name="actionOmni_Kalkulator"/>
+   </widget>
    <addaction name="menuPlik"/>
+   <addaction name="menuModu_y"/>
    <addaction name="menuPomoc"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
@@ -3137,6 +3144,11 @@ font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
   <action name="actionPodziekowania">
    <property name="text">
     <string>Podziękowania</string>
+   </property>
+  </action>
+  <action name="actionOmni_Kalkulator">
+   <property name="text">
+    <string>Omni-Kalkulator</string>
    </property>
   </action>
  </widget>
